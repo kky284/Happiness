@@ -9,6 +9,7 @@
 #import "HappinessViewController.h"
 #import "FaceView.h"
 
+//part 4 protocol
 @interface HappinessViewController ()
 @property (nonatomic, weak) IBOutlet FaceView *faceView;
 @end
