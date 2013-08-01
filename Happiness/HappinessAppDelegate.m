@@ -6,9 +6,9 @@
 //  Copyright (c) 2013 Ki-Yong Kim. All rights reserved.
 //
 
-#import "CalculatorAppDelegate.h"
+#import "HappinessAppDelegate.h"
 
-@implementation CalculatorAppDelegate
+@implementation HappinessAppDelegate
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions
 {

@@ -1,5 +1,5 @@
 //
-//  CalculatorViewController.h
+//  FaceView.h
 //  Happiness
 //
 //  Created by Ki-Yong Kim on 7/30/13.
@@ -8,6 +8,10 @@
 
 #import <UIKit/UIKit.h>
 
-@interface CalculatorViewController : UIViewController
+@interface FaceView : UIView
+
+@property (nonatomic) CGFloat scale;
+
+- (void)pinch:(UIPinchGestureRecognizer *)gesture;
 
 @end

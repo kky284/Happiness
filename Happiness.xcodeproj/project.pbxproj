@@ -7,20 +7,25 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		D920159317A7BF2E002A490A /* HappinessAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = D920159017A7BF2E002A490A /* HappinessAppDelegate.m */; };
+		D920159417A7BF2E002A490A /* HappinessViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D920159217A7BF2E002A490A /* HappinessViewController.m */; };
 		D991D7BC17A7B18D003419B8 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D991D7BB17A7B18D003419B8 /* UIKit.framework */; };
 		D991D7BE17A7B18D003419B8 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D991D7BD17A7B18D003419B8 /* Foundation.framework */; };
 		D991D7C017A7B18D003419B8 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D991D7BF17A7B18D003419B8 /* CoreGraphics.framework */; };
 		D991D7C617A7B18D003419B8 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = D991D7C417A7B18D003419B8 /* InfoPlist.strings */; };
 		D991D7C817A7B18D003419B8 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = D991D7C717A7B18D003419B8 /* main.m */; };
-		D991D7CC17A7B18D003419B8 /* CalculatorAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = D991D7CB17A7B18D003419B8 /* CalculatorAppDelegate.m */; };
 		D991D7CE17A7B18D003419B8 /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = D991D7CD17A7B18D003419B8 /* Default.png */; };
 		D991D7D017A7B18D003419B8 /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = D991D7CF17A7B18D003419B8 /* Default@2x.png */; };
 		D991D7D217A7B18D003419B8 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = D991D7D117A7B18D003419B8 /* Default-568h@2x.png */; };
 		D991D7D517A7B18D003419B8 /* MainStoryboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D991D7D317A7B18D003419B8 /* MainStoryboard.storyboard */; };
-		D991D7D817A7B18D003419B8 /* CalculatorViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D991D7D717A7B18D003419B8 /* CalculatorViewController.m */; };
+		D991D7E017A7B239003419B8 /* FaceView.m in Sources */ = {isa = PBXBuildFile; fileRef = D991D7DF17A7B239003419B8 /* FaceView.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		D920158F17A7BF2E002A490A /* HappinessAppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HappinessAppDelegate.h; sourceTree = "<group>"; };
+		D920159017A7BF2E002A490A /* HappinessAppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HappinessAppDelegate.m; sourceTree = "<group>"; };
+		D920159117A7BF2E002A490A /* HappinessViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HappinessViewController.h; sourceTree = "<group>"; };
+		D920159217A7BF2E002A490A /* HappinessViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HappinessViewController.m; sourceTree = "<group>"; };
 		D991D7B817A7B18D003419B8 /* Happiness.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Happiness.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		D991D7BB17A7B18D003419B8 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		D991D7BD17A7B18D003419B8 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
@@ -29,14 +34,12 @@
 		D991D7C517A7B18D003419B8 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		D991D7C717A7B18D003419B8 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		D991D7C917A7B18D003419B8 /* Happiness-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Happiness-Prefix.pch"; sourceTree = "<group>"; };
-		D991D7CA17A7B18D003419B8 /* CalculatorAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CalculatorAppDelegate.h; sourceTree = "<group>"; };
-		D991D7CB17A7B18D003419B8 /* CalculatorAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CalculatorAppDelegate.m; sourceTree = "<group>"; };
 		D991D7CD17A7B18D003419B8 /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
 		D991D7CF17A7B18D003419B8 /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png"; sourceTree = "<group>"; };
 		D991D7D117A7B18D003419B8 /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
 		D991D7D417A7B18D003419B8 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard.storyboard; sourceTree = "<group>"; };
-		D991D7D617A7B18D003419B8 /* CalculatorViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CalculatorViewController.h; sourceTree = "<group>"; };
-		D991D7D717A7B18D003419B8 /* CalculatorViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CalculatorViewController.m; sourceTree = "<group>"; };
+		D991D7DE17A7B238003419B8 /* FaceView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FaceView.h; sourceTree = "<group>"; };
+		D991D7DF17A7B239003419B8 /* FaceView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FaceView.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -83,11 +86,13 @@
 		D991D7C117A7B18D003419B8 /* Happiness */ = {
 			isa = PBXGroup;
 			children = (
-				D991D7CA17A7B18D003419B8 /* CalculatorAppDelegate.h */,
-				D991D7CB17A7B18D003419B8 /* CalculatorAppDelegate.m */,
+				D920158F17A7BF2E002A490A /* HappinessAppDelegate.h */,
+				D920159017A7BF2E002A490A /* HappinessAppDelegate.m */,
+				D920159117A7BF2E002A490A /* HappinessViewController.h */,
+				D920159217A7BF2E002A490A /* HappinessViewController.m */,
 				D991D7D317A7B18D003419B8 /* MainStoryboard.storyboard */,
-				D991D7D617A7B18D003419B8 /* CalculatorViewController.h */,
-				D991D7D717A7B18D003419B8 /* CalculatorViewController.m */,
+				D991D7DE17A7B238003419B8 /* FaceView.h */,
+				D991D7DF17A7B239003419B8 /* FaceView.m */,
 				D991D7C217A7B18D003419B8 /* Supporting Files */,
 			);
 			path = Happiness;
@@ -175,8 +180,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				D991D7C817A7B18D003419B8 /* main.m in Sources */,
-				D991D7CC17A7B18D003419B8 /* CalculatorAppDelegate.m in Sources */,
-				D991D7D817A7B18D003419B8 /* CalculatorViewController.m in Sources */,
+				D991D7E017A7B239003419B8 /* FaceView.m in Sources */,
+				D920159317A7BF2E002A490A /* HappinessAppDelegate.m in Sources */,
+				D920159417A7BF2E002A490A /* HappinessViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -299,6 +305,7 @@
 				D991D7DD17A7B18D003419B8 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

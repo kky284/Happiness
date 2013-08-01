@@ -8,7 +8,7 @@
 
 #import <UIKit/UIKit.h>
 
-@interface CalculatorAppDelegate : UIResponder <UIApplicationDelegate>
+@interface HappinessAppDelegate : UIResponder <UIApplicationDelegate>
 
 @property (strong, nonatomic) UIWindow *window;
 
